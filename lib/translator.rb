@@ -14,7 +14,8 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   emoticons = load_library(path)
-  hash = {}
+  if emoticons["get_emoticon"][emoticon] == emoticon
+    
   
   
 end
